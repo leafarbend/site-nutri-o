@@ -13,34 +13,68 @@ body {
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 5px 10px;
+
+}
+ .hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
+
+
+
 .hero {
-  background: #f4f8f6;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
   text-align: center;
-  padding: 80px 20px;
+
+  /* imagem de fundo sem repetição e cobrindo tudo */
+  background-image: url('../img/15bd95a3-8c0c-4308-915e-eee62d38bbcb.png');
+  background-size: cover;
+  background-position: medium center;
+  background-repeat: no-repeat;
+
+  color: #fff; /* textos brancos */
+  padding: 0 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column; /* título > botão > subtítulo */
+  align-items: center;    /* centraliza horizontal */
+  gap: 20px;              /* espaçamento entre elementos */
+  background: rgba(0,0,0,0.5); /* sombra por trás do conteúdo */
+  border-radius: 30px;
+  padding: 30px;
 }
 
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: -100px;
-  
+  margin: 0;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fff; /* garante que o subtítulo fique branco */
 }
 
 .btn-whatsapp {
-  background: #25d366;
+  background: #08f75f;
   color: #fff;
-  padding: 15px 30px;
+  padding: 15px 35px;
   text-decoration: none;
   font-size: 1.1rem;
-  border-radius: 5px;
+  border-radius: 30px; 
+  font-weight: bold;
   display: inline-block;
+ 
+
 }
 
 .btn-whatsapp:hover {
