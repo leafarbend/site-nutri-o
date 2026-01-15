@@ -34,7 +34,7 @@ body {
   text-align: center;
 
   /* imagem de fundo sem repetição e cobrindo tudo */
-  background-image: url('../img/15bd95a3-8c0c-4308-915e-eee62d38bbcb.png');
+  background-image: url(../img/15bd95a3-8c0c-4308-915e-eee62d38bbcb.png);
   background-size: cover;
   background-position: medium center;
   background-repeat: no-repeat;
